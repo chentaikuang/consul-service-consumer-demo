@@ -1,0 +1,25 @@
+server:
+  port: 8886
+spring:
+  application:
+    name: service-consumer-demo
+  cloud:
+    gateway:
+    #服务发现
+      discovery:
+        locator:
+          enabled: true
+    consul:
+      host: 127.0.0.1
+      port: 8500
+  profiles:
+    active: dev
+
+
+#日志Level
+logging:
+  level:
+    org.springframework.cloud.gateway: trace
+#    org.springframework.http.server.reactive: debug
+#    org.springframework.web.reactive: debug
+#    reactor.ipc.netty: debug

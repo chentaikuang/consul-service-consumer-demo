@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: com.xiaochen.ec.EcApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.932 s <<< FAILURE! - in com.xiaochen.ec.EcApplicationTests
+contextLoads(com.xiaochen.ec.EcApplicationTests)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NoSuchMethodError: org.springframework.boot.builder.SpringApplicationBuilder.<init>([Ljava/lang/Object;)V
+
